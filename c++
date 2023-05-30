@@ -24,8 +24,30 @@ public:
               }
                   ans.push_back({start,end});
               }
-
+              
+          
+      
           return ans;
 
+    //     int start=intervals[0][0];
+    //     int end=intervals[0][1];
+    //     int i=0;
+
+            //better Approach O(n)+sort(T.C)
+    //     while(i<n){
+    //         if(end>=intervals[i][0]){
+    //             end=max(intervals[i][1],end);
+    //             i++;
+    //         }
+    //         else{
+
+    //             ans.push_back({start,end});
+    //             start=intervals[i][0];
+    //             end=intervals[i][1];
+    //         }
+    //     }   
+
+    //     ans.push_back({start,end});
+    // return ans;
     }
 };
